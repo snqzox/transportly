@@ -1003,7 +1003,7 @@
       },
       "x-padding": {
         "$type": "number",
-        "$value": "{spacing.1}"
+        "$value": "{spacing.2}"
       },
       "x-gap": {
         "$type": "number",
@@ -1089,7 +1089,7 @@
       },
       "x-padding": {
         "$type": "number",
-        "$value": "{spacing.2}"
+        "$value": "{spacing.3}"
       },
       "x-gap": {
         "$type": "number",
@@ -1175,7 +1175,7 @@
       },
       "x-padding": {
         "$type": "number",
-        "$value": "{spacing.3}"
+        "$value": "{spacing.5}"
       },
       "x-gap": {
         "$type": "number",
@@ -1261,7 +1261,7 @@
       },
       "x-padding": {
         "$type": "number",
-        "$value": "{spacing.5}"
+        "$value": "{spacing.8}"
       },
       "x-gap": {
         "$type": "number",
@@ -1317,6 +1317,10 @@
       }
     },
     "spacing": {
+      "0": {
+        "$type": "number",
+        "$value": 0
+      },
       "1": {
         "$type": "number",
         "$value": 4
