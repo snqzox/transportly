@@ -154,6 +154,52 @@
         "$value": "#540307"
       }
     },
+    "green": {
+      "50": {
+        "$type": "color",
+        "$value": "#e6f7e6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#ccf0cd"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#99e19b"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#66d269"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#33c337"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#0AB110"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#098e0e"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#076b0b"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#054808"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#032505"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#021203"
+      }
+    },
     "special": {
       "transparent": {
         "$type": "color",
