@@ -264,6 +264,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.100}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.500}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.600}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.50}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.100}"
       }
     },
     "text": {
@@ -322,6 +338,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.400}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.500}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.600}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.300}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.400}"
       }
     },
     "button-primary-subtle": {
@@ -502,6 +534,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.200}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.600}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.700}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.100}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.200}"
       }
     },
     "button-danger-subtle": {
@@ -614,6 +662,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.900}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.500}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.600}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.950}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.900}"
       }
     },
     "text": {
@@ -672,6 +736,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.600}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.500}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.400}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.700}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.600}"
       }
     },
     "button-primary-subtle": {
@@ -852,6 +932,22 @@
       "danger-subtle-accent": {
         "$type": "color",
         "$value": "{red.700}"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.500}"
+      },
+      "success-accent": {
+        "$type": "color",
+        "$value": "{green.300}"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.800}"
+      },
+      "success-subtle-accent": {
+        "$type": "color",
+        "$value": "{green.700}"
       }
     },
     "button-danger-subtle": {
