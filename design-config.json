@@ -202,6 +202,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.100}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.500}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.600}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.50}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.100}"
       }
     },
     "text": {
@@ -244,6 +260,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.400}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.500}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.600}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.300}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.400}"
       }
     },
     "button-primary-subtle": {
@@ -408,6 +440,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.200}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.600}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.700}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.100}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.200}"
       }
     }
   },
@@ -452,6 +500,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.900}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.500}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.600}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.950}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.900}"
       }
     },
     "text": {
@@ -494,6 +558,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.600}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.500}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.400}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.700}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.600}"
       }
     },
     "button-primary-subtle": {
@@ -658,6 +738,22 @@
       "primary-subtle-accent": {
         "$type": "color",
         "$value": "{blue.700}"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{red.500}"
+      },
+      "danger-accent": {
+        "$type": "color",
+        "$value": "{red.300}"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{red.800}"
+      },
+      "danger-subtle-accent": {
+        "$type": "color",
+        "$value": "{red.700}"
       }
     }
   },
