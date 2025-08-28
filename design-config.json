@@ -419,7 +419,7 @@
         "$type": "color",
         "$value": "{neutral.50}"
       },
-      "background 3": {
+      "background": {
         "$type": "color",
         "$value": "{neutral.100}"
       },
@@ -445,7 +445,7 @@
         "$type": "color",
         "$value": "{neutral.200}"
       },
-      "background 4": {
+      "background": {
         "$type": "color",
         "$value": "{background.body}"
       },
@@ -676,6 +676,10 @@
       "text": {
         "$type": "color",
         "$value": "{neutral.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{neutral.900}"
       }
     },
     "button-body": {
@@ -702,6 +706,10 @@
       "border-hover": {
         "$type": "color",
         "$value": "{neutral.500}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{background.body}"
       }
     },
     "border": {
@@ -1785,8 +1793,6 @@
         "button-body.border": "362b9cf37c09c4f285580c613b33fcc23c5a04d9",
         "button-secondary.text-hover": "f31d254da5203b0f1ae6ad6650f202e2530c9311",
         "button-secondary.background-hover": "91430ff4314b56f18a19bf68bc3ad23055790ff0",
-        "button-secondary.background 3": "676683b8c68b06a48abc9044d7ae65fd5be71524",
-        "button-body.background 4": "f4fe76bfb7e9aa0bb3673435f728d3651c1da29e",
         "button-body.border-hover": "b2f200aa16b80c3f8a724c731096008e98604eaf",
         "button-primary-subtle.text": "3b859dfe2ba79427aa4eb728201ba70661dda54f",
         "button-primary-subtle.border-hover": "72ed545ca0b17763699c4507d61d9d409e09c1b8",
@@ -1800,7 +1806,9 @@
         "border.primary": "2ff2b6d7fb9ed94a83fa6e871bc2827f104fb86e",
         "border.primary-accent": "2d8145f4a775753c05d8e9560a4e01bd3b7627e3",
         "border.primary-subtle": "e2a76b523c16813fabe4c6122cce2d687562ea7d",
-        "border.primary-subtle-accent": "011fc4868a69863274121f3a866e8277c995052a"
+        "border.primary-subtle-accent": "011fc4868a69863274121f3a866e8277c995052a",
+        "button-secondary.background": "676683b8c68b06a48abc9044d7ae65fd5be71524",
+        "button-body.background": "f4fe76bfb7e9aa0bb3673435f728d3651c1da29e"
       },
       "$figmaModeId": "9:0",
       "$figmaCollectionId": "VariableCollectionId:9:98"
@@ -1856,8 +1864,6 @@
         "button-body.border": "362b9cf37c09c4f285580c613b33fcc23c5a04d9",
         "button-secondary.text-hover": "f31d254da5203b0f1ae6ad6650f202e2530c9311",
         "button-secondary.background-hover": "91430ff4314b56f18a19bf68bc3ad23055790ff0",
-        "button-secondary.background 3": "676683b8c68b06a48abc9044d7ae65fd5be71524",
-        "button-body.background 4": "f4fe76bfb7e9aa0bb3673435f728d3651c1da29e",
         "button-body.border-hover": "b2f200aa16b80c3f8a724c731096008e98604eaf",
         "button-primary-subtle.text": "3b859dfe2ba79427aa4eb728201ba70661dda54f",
         "button-primary-subtle.border-hover": "72ed545ca0b17763699c4507d61d9d409e09c1b8",
@@ -1871,7 +1877,9 @@
         "border.primary": "2ff2b6d7fb9ed94a83fa6e871bc2827f104fb86e",
         "border.primary-accent": "2d8145f4a775753c05d8e9560a4e01bd3b7627e3",
         "border.primary-subtle": "e2a76b523c16813fabe4c6122cce2d687562ea7d",
-        "border.primary-subtle-accent": "011fc4868a69863274121f3a866e8277c995052a"
+        "border.primary-subtle-accent": "011fc4868a69863274121f3a866e8277c995052a",
+        "button-secondary.background": "676683b8c68b06a48abc9044d7ae65fd5be71524",
+        "button-body.background": "f4fe76bfb7e9aa0bb3673435f728d3651c1da29e"
       },
       "$figmaModeId": "11:1",
       "$figmaCollectionId": "VariableCollectionId:9:98"
