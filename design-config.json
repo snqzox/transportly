@@ -7,51 +7,51 @@
       },
       "50": {
         "$type": "color",
-        "$value": "#e9ecf2"
+        "$value": "#e9ecf0"
       },
       "100": {
         "$type": "color",
-        "$value": "#d9dde5"
+        "$value": "#dde0e6"
       },
       "200": {
         "$type": "color",
-        "$value": "#c1c7d3"
+        "$value": "#d0d4dd"
       },
       "300": {
         "$type": "color",
-        "$value": "#a2abbc"
+        "$value": "#bfc3cd"
       },
       "400": {
         "$type": "color",
-        "$value": "#828da3"
+        "$value": "#a8adb9"
       },
       "500": {
         "$type": "color",
-        "$value": "#6a768d"
+        "$value": "#8f94a1"
       },
       "600": {
         "$type": "color",
-        "$value": "#58637b"
+        "$value": "#797e8b"
       },
       "700": {
         "$type": "color",
-        "$value": "#455067"
+        "$value": "#606673"
       },
       "800": {
         "$type": "color",
-        "$value": "#394353"
+        "$value": "#4b515e"
       },
       "900": {
         "$type": "color",
-        "$value": "#303746"
+        "$value": "#373d4a"
       },
       "950": {
         "$type": "color",
-        "$value": "#1e2431"
+        "$value": "#1d222f"
       },
       "999": {
         "$type": "color",
-        "$value": "#0d121b"
+        "$value": "#11151d"
       },
       "white": {
         "$type": "color",
@@ -550,6 +550,10 @@
       "success-subtle-accent": {
         "$type": "color",
         "$value": "{green.200}"
+      },
+      "input": {
+        "$type": "color",
+        "$value": "{neutral.400}"
       }
     },
     "button-danger-subtle": {
@@ -602,6 +606,32 @@
       "border-hover": {
         "$type": "color",
         "$value": "{red.700}"
+      }
+    },
+    "button-ghost": {
+      "background": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "background-hover": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.muted}"
+      },
+      "text-hover": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "border-hover": {
+        "$type": "color",
+        "$value": "{special.transparent}"
       }
     }
   },
@@ -895,7 +925,7 @@
     "border": {
       "body": {
         "$type": "color",
-        "$value": "{neutral.700}"
+        "$value": "{neutral.800}"
       },
       "body-inverted": {
         "$type": "color",
@@ -948,6 +978,10 @@
       "success-subtle-accent": {
         "$type": "color",
         "$value": "{green.700}"
+      },
+      "input": {
+        "$type": "color",
+        "$value": "{neutral.600}"
       }
     },
     "button-danger-subtle": {
@@ -1000,6 +1034,32 @@
       "border-hover": {
         "$type": "color",
         "$value": "{red.500}"
+      }
+    },
+    "button-ghost": {
+      "background": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "background-hover": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.muted}"
+      },
+      "text-hover": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{special.transparent}"
+      },
+      "border-hover": {
+        "$type": "color",
+        "$value": "{special.transparent}"
       }
     }
   },
@@ -1191,23 +1251,23 @@
       },
       "sm": {
         "$type": "number",
-        "$value": 16
+        "$value": 17
       },
       "md": {
         "$type": "number",
-        "$value": 18
+        "$value": 20
       },
       "lg": {
         "$type": "number",
-        "$value": 20
+        "$value": 22
       },
       "xl": {
         "$type": "number",
-        "$value": 22
+        "$value": 24
       },
       "2xl": {
         "$type": "number",
-        "$value": 24
+        "$value": 26
       },
       "3xl": {
         "$type": "number",
@@ -1328,6 +1388,10 @@
       "icon-size": {
         "$type": "number",
         "$value": "{icon-size.3-5}"
+      },
+      "icon-size 2": {
+        "$type": "number",
+        "$value": "{icon-size.3-5}"
       }
     },
     "button": {
@@ -1422,6 +1486,10 @@
       "icon-size": {
         "$type": "number",
         "$value": "{icon-size.4}"
+      },
+      "icon-size 2": {
+        "$type": "number",
+        "$value": 0
       }
     },
     "button": {
@@ -1516,6 +1584,10 @@
       "icon-size": {
         "$type": "number",
         "$value": "{icon-size.4-5}"
+      },
+      "icon-size 2": {
+        "$type": "number",
+        "$value": 0
       }
     },
     "button": {
@@ -1610,6 +1682,10 @@
       "icon-size": {
         "$type": "number",
         "$value": "{icon-size.5}"
+      },
+      "icon-size 2": {
+        "$type": "number",
+        "$value": 0
       }
     },
     "button": {
@@ -1730,6 +1806,10 @@
       "full": {
         "$type": "number",
         "$value": 999
+      },
+      "1-5": {
+        "$type": "number",
+        "$value": 6
       }
     },
     "icon-size": {
@@ -1769,6 +1849,256 @@
         "$type": "number",
         "$value": 22
       }
+    }
+  },
+  "badge/sm": {
+    "body-inverted": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.body-inverted}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body-inverted}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body-inverted}"
+      }
+    },
+    "primary": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.primary}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.primary}"
+      }
+    },
+    "secondary": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.extramuted}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body}"
+      }
+    },
+    "body": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.body}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body}"
+      }
+    },
+    "danger": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.danger}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.danger}"
+      }
+    },
+    "font-weight": {
+      "$type": "text",
+      "$value": "{font-weight.extrabold}"
+    },
+    "font-family": {
+      "$type": "text",
+      "$value": "{font-family.font-sans-serif}"
+    },
+    "letter-spacing": {
+      "$type": "number",
+      "$value": "{letter-spacing.default}"
+    },
+    "line-height": {
+      "$type": "number",
+      "$value": "{line-height.xs}"
+    },
+    "text-size": {
+      "$type": "number",
+      "$value": "{text-size.2xs}"
+    },
+    "icon-size": {
+      "$type": "number",
+      "$value": "{icon-size.3-5}"
+    },
+    "x-gap": {
+      "$type": "number",
+      "$value": "{spacing.1}"
+    },
+    "radius": {
+      "$type": "number",
+      "$value": "{border-radius.full}"
+    },
+    "x-padding": {
+      "$type": "number",
+      "$value": "{spacing.1-5}"
+    },
+    "paragraph-spacing": {
+      "$type": "number",
+      "$value": "{paragraph-spacing.xs}"
+    },
+    "size": {
+      "$type": "number",
+      "$value": 20
+    }
+  },
+  "badge/md": {
+    "body-inverted": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.body-inverted}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body-inverted}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body-inverted}"
+      }
+    },
+    "primary": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.primary}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.primary}"
+      }
+    },
+    "secondary": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.extramuted}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body}"
+      }
+    },
+    "body": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.body}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{text.body}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.body}"
+      }
+    },
+    "danger": {
+      "background": {
+        "$type": "color",
+        "$value": "{background.danger}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{border.danger}"
+      }
+    },
+    "font-weight": {
+      "$type": "text",
+      "$value": "{font-weight.extrabold}"
+    },
+    "font-family": {
+      "$type": "text",
+      "$value": "{font-family.font-sans-serif}"
+    },
+    "letter-spacing": {
+      "$type": "number",
+      "$value": "{letter-spacing.default}"
+    },
+    "line-height": {
+      "$type": "number",
+      "$value": "{line-height.sm}"
+    },
+    "text-size": {
+      "$type": "number",
+      "$value": "{text-size.xs}"
+    },
+    "icon-size": {
+      "$type": "number",
+      "$value": "{icon-size.4}"
+    },
+    "x-gap": {
+      "$type": "number",
+      "$value": "{spacing.1}"
+    },
+    "radius": {
+      "$type": "number",
+      "$value": "{border-radius.full}"
+    },
+    "x-padding": {
+      "$type": "number",
+      "$value": "{spacing.2}"
+    },
+    "paragraph-spacing": {
+      "$type": "number",
+      "$value": "{paragraph-spacing.sm}"
+    },
+    "size": {
+      "$type": "number",
+      "$value": 24
+    }
+  },
+  "alert/variables": {
+    "is-closable": {
+      "$type": "boolean",
+      "$value": "true"
+    },
+    "x-padding": {
+      "$type": "number",
+      "$value": "{spacing.4}"
+    },
+    "y-padding": {
+      "$type": "number",
+      "$value": "{spacing.4}"
+    },
+    "icon-size": {
+      "$type": "number",
+      "$value": "{icon-size.5}"
     }
   },
   "$themes": [
@@ -1854,21 +2184,22 @@
         "spacing.1": "d13065ca00a1e989682dbca399027f89a91bf6ef",
         "spacing.2": "7d01605890a9d4534a3244b7a655151caff07968",
         "spacing.3": "4021fd87a4ee2692385aa0c6e5e9d1e60136723d",
+        "spacing.4": "11e56691f2a429e7d690acdcd2e0d996d4885035",
         "spacing.5": "906c68b7fad441c2d9c85d9730efb9bcb5fcb380",
+        "spacing.6": "8c7e4f4e938a7985b1206eff6aa9304f8849c30c",
         "spacing.8": "8a80412ff2a8f0b787ef79fc828e3f88d903eed9",
         "spacing.0-5": "2d4878d46b79de9db04ceaaa8dc7c4017b5b4a12",
         "spacing.full": "dd635c23544f2e71a1c5d44153e996fc7783fd2f",
-        "icon-size.2-5": "8d7193abd719c599c1fd74afa180800496bc6eb0",
         "icon-size.3": "2e2dccecd9db69b4b27f14234794c15a2992c8e9",
-        "icon-size.3-5": "3188c88a3d624b8891b5724c6cfcb0f2f0efe7ed",
         "icon-size.4": "eb6336f2c060569672b2c4b61fbbf710a30066d8",
-        "icon-size.4-5": "04b76353e65b7fbadf2d711980d3927191432e85",
         "icon-size.5": "cd44c0a3fc83cc7acf245550def60d6bbaca9b4d",
-        "icon-size.5-5": "c26f7a69c5e541f34d78c7631362c717283c34f4",
         "icon-size.6": "49920ab3239f6d0dd08615a3be334d16c83cd6fa",
         "icon-size.7": "0b467dc8d8b80aad9c9695b71028c2f632add25a",
-        "spacing.4": "11e56691f2a429e7d690acdcd2e0d996d4885035",
-        "spacing.6": "8c7e4f4e938a7985b1206eff6aa9304f8849c30c"
+        "icon-size.2-5": "8d7193abd719c599c1fd74afa180800496bc6eb0",
+        "icon-size.3-5": "3188c88a3d624b8891b5724c6cfcb0f2f0efe7ed",
+        "icon-size.4-5": "04b76353e65b7fbadf2d711980d3927191432e85",
+        "icon-size.5-5": "c26f7a69c5e541f34d78c7631362c717283c34f4",
+        "spacing.1-5": "a5b3772be20d3ebd98c8c0d0aaac80a250869086"
       },
       "$figmaModeId": "6:0",
       "$figmaCollectionId": "VariableCollectionId:6:2"
@@ -1892,6 +2223,7 @@
         "input.line-height": "b1d3ebd0fd6ee71a38af4dd60bb815a1731b2319",
         "input.paragraph-spacing": "00f3c8fe2c7d0eb9dbe8a878b587820bb8984fe7",
         "input.text-size": "341e8dd92c5d28cc17fe9fc737ac70a2fe516538",
+        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
         "button.font-weight": "c5294072f0563c5a0d33cc55f8c82d5a1e464e36",
         "button.font-family": "b60dcbfa69bad187fef842981a475f16025b1bf8",
         "button.size": "6bc64505039e4af2842f916bc53f507ad0e91978",
@@ -1902,8 +2234,8 @@
         "button.paragraph-spacing": "23dc040bf7a8ce6ed597a2a1e26dfd3aadd87c8d",
         "button.line-height": "3c8b130448ce451ef16486c53aed60d7cab046c2",
         "button.text-size": "f8d4edb40c697d92fc1d5c3dedf52af2107ed4a7",
-        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
-        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837"
+        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837",
+        "input.icon-size 2": "a128dd21d2bba92a55f456b50ab9be87e520ca1e"
       },
       "$figmaModeId": "6:1",
       "$figmaCollectionId": "VariableCollectionId:6:17"
@@ -1927,6 +2259,7 @@
         "input.line-height": "b1d3ebd0fd6ee71a38af4dd60bb815a1731b2319",
         "input.paragraph-spacing": "00f3c8fe2c7d0eb9dbe8a878b587820bb8984fe7",
         "input.text-size": "341e8dd92c5d28cc17fe9fc737ac70a2fe516538",
+        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
         "button.font-weight": "c5294072f0563c5a0d33cc55f8c82d5a1e464e36",
         "button.font-family": "b60dcbfa69bad187fef842981a475f16025b1bf8",
         "button.size": "6bc64505039e4af2842f916bc53f507ad0e91978",
@@ -1937,8 +2270,8 @@
         "button.paragraph-spacing": "23dc040bf7a8ce6ed597a2a1e26dfd3aadd87c8d",
         "button.line-height": "3c8b130448ce451ef16486c53aed60d7cab046c2",
         "button.text-size": "f8d4edb40c697d92fc1d5c3dedf52af2107ed4a7",
-        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
-        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837"
+        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837",
+        "input.icon-size 2": "a128dd21d2bba92a55f456b50ab9be87e520ca1e"
       },
       "$figmaModeId": "6:2",
       "$figmaCollectionId": "VariableCollectionId:6:17"
@@ -1962,6 +2295,7 @@
         "input.line-height": "b1d3ebd0fd6ee71a38af4dd60bb815a1731b2319",
         "input.paragraph-spacing": "00f3c8fe2c7d0eb9dbe8a878b587820bb8984fe7",
         "input.text-size": "341e8dd92c5d28cc17fe9fc737ac70a2fe516538",
+        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
         "button.font-weight": "c5294072f0563c5a0d33cc55f8c82d5a1e464e36",
         "button.font-family": "b60dcbfa69bad187fef842981a475f16025b1bf8",
         "button.size": "6bc64505039e4af2842f916bc53f507ad0e91978",
@@ -1972,8 +2306,8 @@
         "button.paragraph-spacing": "23dc040bf7a8ce6ed597a2a1e26dfd3aadd87c8d",
         "button.line-height": "3c8b130448ce451ef16486c53aed60d7cab046c2",
         "button.text-size": "f8d4edb40c697d92fc1d5c3dedf52af2107ed4a7",
-        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
-        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837"
+        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837",
+        "input.icon-size 2": "a128dd21d2bba92a55f456b50ab9be87e520ca1e"
       },
       "$figmaModeId": "6:3",
       "$figmaCollectionId": "VariableCollectionId:6:17"
@@ -1997,6 +2331,7 @@
         "input.line-height": "b1d3ebd0fd6ee71a38af4dd60bb815a1731b2319",
         "input.paragraph-spacing": "00f3c8fe2c7d0eb9dbe8a878b587820bb8984fe7",
         "input.text-size": "341e8dd92c5d28cc17fe9fc737ac70a2fe516538",
+        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
         "button.font-weight": "c5294072f0563c5a0d33cc55f8c82d5a1e464e36",
         "button.font-family": "b60dcbfa69bad187fef842981a475f16025b1bf8",
         "button.size": "6bc64505039e4af2842f916bc53f507ad0e91978",
@@ -2007,8 +2342,8 @@
         "button.paragraph-spacing": "23dc040bf7a8ce6ed597a2a1e26dfd3aadd87c8d",
         "button.line-height": "3c8b130448ce451ef16486c53aed60d7cab046c2",
         "button.text-size": "f8d4edb40c697d92fc1d5c3dedf52af2107ed4a7",
-        "input.icon-size": "7c1e2645f7c1aedb37634fb147bc68c38499819d",
-        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837"
+        "button.icon-size": "24d2763542a1d7cc69d2f0b4a356a5a5201bd837",
+        "input.icon-size 2": "a128dd21d2bba92a55f456b50ab9be87e520ca1e"
       },
       "$figmaModeId": "6:4",
       "$figmaCollectionId": "VariableCollectionId:6:17"
@@ -2113,6 +2448,10 @@
         "background.danger-accent": "12523c184e70611ae1ef16a0dc7eea4bf313600a",
         "background.danger-subtle": "f6d1970baf19e9711b0f558f6f7f46c591c847e4",
         "background.danger-subtle-accent": "1833b7bea5f7020167b64fba5e0ef3d99753ed84",
+        "background.success": "84cb0575594dcce86897faeac0ea92d91df4d0ad",
+        "background.success-accent": "1b51155b1cf549b4336572155ccb4023e19d2a6b",
+        "background.success-subtle": "d00505d7b0d7c28ab10ef2b19e1fc103e2a7af45",
+        "background.success-subtle-accent": "c4af2fa3e3ed732f8e18f0ef8af6faf57ad03643",
         "text.body": "321c7453cea231c5f26d6e82b212489af807dffc",
         "text.muted": "e2aff0b6ed4d784b67725e33ec2a6fbec5e377a5",
         "text.extramuted": "92a0d87ff7e7cd2d79054d2132e4c34a15d7ce0b",
@@ -2127,6 +2466,10 @@
         "text.danger-accent": "1d04eded94f81f218467916d7e954d93b0cc33ca",
         "text.danger-subtle": "b8848aef7c2e691afb3adc53f2da880f7fa91cbd",
         "text.danger-subtle-accent": "484f1336f5fc0aed0fc62e0f2de36e6d5ad38184",
+        "text.success": "e5653eae7ae060e8a001d7ffa409122a430ce022",
+        "text.success-accent": "3a6f232bc38523db2bd15bf322fae97336633422",
+        "text.success-subtle": "75d63d7073093fb844196896b4ad39a45270b4de",
+        "text.success-subtle-accent": "3c49183109ab703e90530ef72ebe1f619c70a97f",
         "button-primary-subtle.background": "18eee14df9379713ddc80ca037401008c6bde0fd",
         "button-primary-subtle.border": "08f4863ecfbd27bfcf2ef04d9150bf4777f75b10",
         "button-primary-subtle.background-hover": "ba3b84090b69a3b20b97e8c2fba9b5581e656c7a",
@@ -2169,6 +2512,10 @@
         "border.danger-accent": "49feaa4df5d7bbea8cc79574866d109e7a70c7d4",
         "border.danger-subtle": "d1481d1a2eba0a48222a5d3f1e60f1bd10f586a0",
         "border.danger-subtle-accent": "f1e6e6dfb044e4fe4c80534d56f29f4188780dcc",
+        "border.success": "c7acd64774d7add468d87ce9da15e7676f9bb2e0",
+        "border.success-accent": "f6c2771b42a80061f8267b3b885fd7280e822507",
+        "border.success-subtle": "b0edc9b67f15bdcae3da11c528d71748047e88a1",
+        "border.success-subtle-accent": "bae72a8cc462b679a08b9fde4d26ecc6abc74995",
         "button-danger-subtle.background": "eeb7504008eae77b4806673ae2599f02709b79b4",
         "button-danger-subtle.background-hover": "955c8d89a222ec0d436b24d073a4ed60be189af2",
         "button-danger-subtle.text": "e8380a1c074a7a178581580ad583780433466f26",
@@ -2180,7 +2527,14 @@
         "button-danger.text": "596abe86d30ce69007d60e0f457ee83d2047ec7d",
         "button-danger.text-hover": "e78bff69059ea08aa305268a70614227865b427f",
         "button-danger.border": "3efc99b57bfdcc588d78babc7716aa01a54e1de1",
-        "button-danger.border-hover": "8f97743a57190dc56d5c1cdf8d2a94253439be52"
+        "button-danger.border-hover": "8f97743a57190dc56d5c1cdf8d2a94253439be52",
+        "button-ghost.background": "eb963b71ac3c382c7f5c390b1fe84b3b8392491f",
+        "button-ghost.background-hover": "16e317ead41b488609cebdcab9ae025ccbe1bce1",
+        "button-ghost.text": "ee15683f86a9c6b5ba478ae027090a96dfd7aee3",
+        "button-ghost.text-hover": "c7691b6edf6879ebc123cc5f324aea38c64dd7e3",
+        "button-ghost.border": "03ccf1b413bba5e999928de5391703e6175fecb3",
+        "button-ghost.border-hover": "405c3f7ac7c17bd64aca4b9cfb21f3bef100e420",
+        "border.input": "86ffed6e36a638e36b6f9b13af4ab64e8a226eb7"
       },
       "$figmaModeId": "9:0",
       "$figmaCollectionId": "VariableCollectionId:9:98"
@@ -2208,6 +2562,10 @@
         "background.danger-accent": "12523c184e70611ae1ef16a0dc7eea4bf313600a",
         "background.danger-subtle": "f6d1970baf19e9711b0f558f6f7f46c591c847e4",
         "background.danger-subtle-accent": "1833b7bea5f7020167b64fba5e0ef3d99753ed84",
+        "background.success": "84cb0575594dcce86897faeac0ea92d91df4d0ad",
+        "background.success-accent": "1b51155b1cf549b4336572155ccb4023e19d2a6b",
+        "background.success-subtle": "d00505d7b0d7c28ab10ef2b19e1fc103e2a7af45",
+        "background.success-subtle-accent": "c4af2fa3e3ed732f8e18f0ef8af6faf57ad03643",
         "text.body": "321c7453cea231c5f26d6e82b212489af807dffc",
         "text.muted": "e2aff0b6ed4d784b67725e33ec2a6fbec5e377a5",
         "text.extramuted": "92a0d87ff7e7cd2d79054d2132e4c34a15d7ce0b",
@@ -2222,6 +2580,10 @@
         "text.danger-accent": "1d04eded94f81f218467916d7e954d93b0cc33ca",
         "text.danger-subtle": "b8848aef7c2e691afb3adc53f2da880f7fa91cbd",
         "text.danger-subtle-accent": "484f1336f5fc0aed0fc62e0f2de36e6d5ad38184",
+        "text.success": "e5653eae7ae060e8a001d7ffa409122a430ce022",
+        "text.success-accent": "3a6f232bc38523db2bd15bf322fae97336633422",
+        "text.success-subtle": "75d63d7073093fb844196896b4ad39a45270b4de",
+        "text.success-subtle-accent": "3c49183109ab703e90530ef72ebe1f619c70a97f",
         "button-primary-subtle.background": "18eee14df9379713ddc80ca037401008c6bde0fd",
         "button-primary-subtle.border": "08f4863ecfbd27bfcf2ef04d9150bf4777f75b10",
         "button-primary-subtle.background-hover": "ba3b84090b69a3b20b97e8c2fba9b5581e656c7a",
@@ -2264,6 +2626,10 @@
         "border.danger-accent": "49feaa4df5d7bbea8cc79574866d109e7a70c7d4",
         "border.danger-subtle": "d1481d1a2eba0a48222a5d3f1e60f1bd10f586a0",
         "border.danger-subtle-accent": "f1e6e6dfb044e4fe4c80534d56f29f4188780dcc",
+        "border.success": "c7acd64774d7add468d87ce9da15e7676f9bb2e0",
+        "border.success-accent": "f6c2771b42a80061f8267b3b885fd7280e822507",
+        "border.success-subtle": "b0edc9b67f15bdcae3da11c528d71748047e88a1",
+        "border.success-subtle-accent": "bae72a8cc462b679a08b9fde4d26ecc6abc74995",
         "button-danger-subtle.background": "eeb7504008eae77b4806673ae2599f02709b79b4",
         "button-danger-subtle.background-hover": "955c8d89a222ec0d436b24d073a4ed60be189af2",
         "button-danger-subtle.text": "e8380a1c074a7a178581580ad583780433466f26",
@@ -2275,10 +2641,112 @@
         "button-danger.text": "596abe86d30ce69007d60e0f457ee83d2047ec7d",
         "button-danger.text-hover": "e78bff69059ea08aa305268a70614227865b427f",
         "button-danger.border": "3efc99b57bfdcc588d78babc7716aa01a54e1de1",
-        "button-danger.border-hover": "8f97743a57190dc56d5c1cdf8d2a94253439be52"
+        "button-danger.border-hover": "8f97743a57190dc56d5c1cdf8d2a94253439be52",
+        "button-ghost.background": "eb963b71ac3c382c7f5c390b1fe84b3b8392491f",
+        "button-ghost.background-hover": "16e317ead41b488609cebdcab9ae025ccbe1bce1",
+        "button-ghost.text": "ee15683f86a9c6b5ba478ae027090a96dfd7aee3",
+        "button-ghost.text-hover": "c7691b6edf6879ebc123cc5f324aea38c64dd7e3",
+        "button-ghost.border": "03ccf1b413bba5e999928de5391703e6175fecb3",
+        "button-ghost.border-hover": "405c3f7ac7c17bd64aca4b9cfb21f3bef100e420",
+        "border.input": "86ffed6e36a638e36b6f9b13af4ab64e8a226eb7"
       },
       "$figmaModeId": "11:1",
       "$figmaCollectionId": "VariableCollectionId:9:98"
+    },
+    {
+      "id": "badge-sm",
+      "name": "sm",
+      "group": "badge",
+      "selectedTokenSets": {
+        "badge/sm": "enabled"
+      },
+      "$figmaStyleReferences": {},
+      "$figmaVariableReferences": {
+        "body-inverted.background": "b55ad497c7653d6190968e5abe19fc5384bc96a2",
+        "body-inverted.text": "d00bdf5b8a4425006fd8276dbf66cb083e9fae90",
+        "primary.background": "f5fbe227cbc8ea1b8639a6d1cf9bb67dc54b0234",
+        "primary.text": "873a0b6fbb209a3cd8ba04745c02b6b8d80aa89a",
+        "secondary.background": "947ccba7695e505036dd88031140d1b901acf2c4",
+        "secondary.text": "eb573d2ff24666d36bc472932e75ffd5f7153641",
+        "body.background": "3412a51b5e7b92c9c888bda2d05ac1f9d1bdf91a",
+        "body.text": "e022ef332a0951fdf31c1f63c4e5b807499d01c5",
+        "body-inverted.border": "55b76edbbcf420971d81581d76425fd56f2090f1",
+        "body.border": "6ab78089b3b06fff6659783ac58931185de34819",
+        "primary.border": "447a61d0ed292c1f875f48b93aee43b561b27c5c",
+        "secondary.border": "d0f3d6fe78772ece99b78458b80112bb94286b94",
+        "danger.background": "6c7c2c73c403b46cbc85bd434fb7b9334a954534",
+        "danger.text": "6a22f00ba7e7cccfb3583ee873dee24c93b8828c",
+        "danger.border": "1c6023a488750d300b18d693395943badcb3dd75",
+        "font-weight": "5998228e0bb54844e4e8ea747dd11a0cfa3ca28d",
+        "font-family": "6832600ad289f41ff15913f17eac704aac5911e0",
+        "letter-spacing": "637382a47b651df1ab3796f19942191b83addf8d",
+        "line-height": "c43b1e1be3c461792f0498c8e03c04b41bf62e8a",
+        "text-size": "d83dacc2fdc85f4f9132c152b2246b5a6314da80",
+        "icon-size": "db13f4637a994728d1d140f6071bc0135b6eb401",
+        "x-gap": "32e6e1eb48f938154c5b0be2082b0b4fb95bb3ed",
+        "radius": "8aeeb2dbf6c62fe6fb48aac3fac7282b8c3920b0",
+        "x-padding": "f71a95ff6afe68319b9afaeaba12739938c01fd9",
+        "paragraph-spacing": "7fe7a741a1cc342346b80cd9d01f673b2b2017bd",
+        "size": "86de7561f8e4cb0d944d58f862260aa604ef82c3"
+      },
+      "$figmaModeId": "15:3",
+      "$figmaCollectionId": "VariableCollectionId:15:1681"
+    },
+    {
+      "id": "badge-md",
+      "name": "md",
+      "group": "badge",
+      "selectedTokenSets": {
+        "badge/md": "enabled"
+      },
+      "$figmaStyleReferences": {},
+      "$figmaVariableReferences": {
+        "body-inverted.background": "b55ad497c7653d6190968e5abe19fc5384bc96a2",
+        "body-inverted.text": "d00bdf5b8a4425006fd8276dbf66cb083e9fae90",
+        "primary.background": "f5fbe227cbc8ea1b8639a6d1cf9bb67dc54b0234",
+        "primary.text": "873a0b6fbb209a3cd8ba04745c02b6b8d80aa89a",
+        "secondary.background": "947ccba7695e505036dd88031140d1b901acf2c4",
+        "secondary.text": "eb573d2ff24666d36bc472932e75ffd5f7153641",
+        "body.background": "3412a51b5e7b92c9c888bda2d05ac1f9d1bdf91a",
+        "body.text": "e022ef332a0951fdf31c1f63c4e5b807499d01c5",
+        "body-inverted.border": "55b76edbbcf420971d81581d76425fd56f2090f1",
+        "body.border": "6ab78089b3b06fff6659783ac58931185de34819",
+        "primary.border": "447a61d0ed292c1f875f48b93aee43b561b27c5c",
+        "secondary.border": "d0f3d6fe78772ece99b78458b80112bb94286b94",
+        "danger.background": "6c7c2c73c403b46cbc85bd434fb7b9334a954534",
+        "danger.text": "6a22f00ba7e7cccfb3583ee873dee24c93b8828c",
+        "danger.border": "1c6023a488750d300b18d693395943badcb3dd75",
+        "font-weight": "5998228e0bb54844e4e8ea747dd11a0cfa3ca28d",
+        "font-family": "6832600ad289f41ff15913f17eac704aac5911e0",
+        "letter-spacing": "637382a47b651df1ab3796f19942191b83addf8d",
+        "line-height": "c43b1e1be3c461792f0498c8e03c04b41bf62e8a",
+        "text-size": "d83dacc2fdc85f4f9132c152b2246b5a6314da80",
+        "icon-size": "db13f4637a994728d1d140f6071bc0135b6eb401",
+        "x-gap": "32e6e1eb48f938154c5b0be2082b0b4fb95bb3ed",
+        "radius": "8aeeb2dbf6c62fe6fb48aac3fac7282b8c3920b0",
+        "x-padding": "f71a95ff6afe68319b9afaeaba12739938c01fd9",
+        "paragraph-spacing": "7fe7a741a1cc342346b80cd9d01f673b2b2017bd",
+        "size": "86de7561f8e4cb0d944d58f862260aa604ef82c3"
+      },
+      "$figmaModeId": "15:4",
+      "$figmaCollectionId": "VariableCollectionId:15:1681"
+    },
+    {
+      "id": "alert-variables",
+      "name": "variables",
+      "group": "alert",
+      "selectedTokenSets": {
+        "alert/variables": "enabled"
+      },
+      "$figmaStyleReferences": {},
+      "$figmaVariableReferences": {
+        "x-padding": "3ca0e5d92921f3ead4292869a47c2f2419155819",
+        "y-padding": "033a7f2da6ed970ee0cff8e2e2d4e1d35b1475b9",
+        "icon-size": "68bf5cc7f09a3b6ae23f8b5419ef35b89e9ec8cf",
+        "is-closable": "3c3ee9b68e87004daa9ef14734bcab011d6521cb"
+      },
+      "$figmaModeId": "18:0",
+      "$figmaCollectionId": "VariableCollectionId:18:4836"
     }
   ],
   "$metadata": {
@@ -2291,7 +2759,10 @@
       "input-sizes/sm",
       "input-sizes/md",
       "input-sizes/xl",
-      "global/variables"
+      "global/variables",
+      "badge/sm",
+      "badge/md",
+      "alert/variables"
     ]
   }
 }
